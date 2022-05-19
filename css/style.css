@@ -71,3 +71,21 @@ input[name="r"]{
     width: 1146px;
     height: 10px;
 } */
+@media (max-width: 450px){
+    .slider{
+        width: 400px;
+        height: 200px;
+    }
+    .under_slider{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .under_slider h1{
+        font-size: 14px;
+        order: 2;
+    }
+    .navigation{
+        transform: translateX(0)
+    }
+}

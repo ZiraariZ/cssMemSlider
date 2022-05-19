@@ -95,3 +95,29 @@ padding-right: 0px;
     color: red;
     background-color: black;
 }
+@media (max-width: 450px){
+    .header__search{
+        margin: 0 auto;
+    }
+    .container{
+        max-width: 450px;
+    }
+    .nav__row_left__logo img{
+        height: 30px;
+        width: 40px;
+    }
+    .logo {
+        font-size: 18px;
+        font-weight: bolder;
+        padding-left: 6px;
+    }
+    .header__nav {
+        flex-direction: column;
+        justify-content:flex-start;
+        margin-bottom: 10px;
+    }
+    .header__nav__row_right{
+        display: flex;
+        justify-content: space-around;
+    }
+}
