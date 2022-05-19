@@ -18,6 +18,10 @@
     align-items: center;
     margin-right: 20px;
 }
+.nav__row_left__logo img{
+    height: 50px;
+    width: 70px;
+}
 .logo {
     font-size: 24px;
     font-weight: bolder;
@@ -62,7 +66,8 @@ padding-right: 0px;
     width: 161px;
     height: 36px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: black;
+    color: red;
     font-size: 14px;
 }
 .header__nav__row_right__buttonadd:hover{
