@@ -1,6 +1,7 @@
 .container {
     max-width: 1146px;
     margin: 0px auto;
+    margin-bottom: 15px;
 }
 .header{
     margin-top: 30px;
@@ -84,12 +85,13 @@ padding-right: 0px;
     flex-grow: 1;
     max-width: 1040px;
     padding: 14px 20px;
-    border: 3px solid blue;
+    border: 3px solid black;
     border-radius: 5px;
 }
 .header__search__button {
     max-width: 107px;
     padding: 14px 25px;
     border-radius: 5px;
-    background-color: blue;
+    color: red;
+    background-color: black;
 }
