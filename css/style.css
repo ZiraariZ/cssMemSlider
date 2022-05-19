@@ -21,9 +21,9 @@
     margin: 6px;
     cursor: pointer;
     background-color: brown;
-    opacity: 0.8;
+    opacity: .6;
     border-radius: 10px;
-    transition: all 4s ease;
+    transition: all 2s ease;
 }
 .bar:hover{
     opacity: 1;
@@ -46,20 +46,21 @@ input[name="r"]{
     width: 100%;
     height: 100%;
 }
-#r1:checked ~ s1{
+#r1:checked ~ .s1{
     margin-left: 0;
 }
-#r2:checked ~ s1{
+#r2:checked ~ .s1{
     margin-left: -25%;
 }
-#r3:checked ~ s1{
+#r3:checked ~ .s1{
     margin-left: -50%;
 }
-#r4:checked ~ s1{
+#r4:checked ~ .s1{
     margin-left: -75%;
 }
-footer{
+/* footer{
+    margin: 0 auto;
     background-color: black;
-    max-width: 1146px;
-    height: 200px;
-}
+    width: 1146px;
+    height: 10px;
+} */
