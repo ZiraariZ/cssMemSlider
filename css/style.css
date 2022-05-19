@@ -65,6 +65,22 @@ input[name="r"]{
 #r4:checked ~ .s1{
     margin-left: -75%;
 }
+/* .slidt{
+    width: 100;
+    height: auto;
+    overflow: hidden;
+}
+.slid_text{
+    width: 400%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.slider_text{
+    width: 25%;
+    transition: all 6s ease;
+} */
+
 /* footer{
     margin: 0 auto;
     background-color: black;
